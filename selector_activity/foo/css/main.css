@@ -1,0 +1,58 @@
+h1 {
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+header {
+	text-align: center;
+}
+
+main h1 {
+	color: green;
+}
+
+p + ul li {
+	font-weight: bold;
+}
+
+
+ol ul:first-of-type {
+	font-style: italic;
+}
+
+
+ol > li {
+	color: blue;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+h1 + p::first-letter {
+	font-size: 150%;
+}
+
+p:last-of-type {
+	background-color: pink;
+}
+
+h2:last-of-type {
+	background-color: yellow;
+}
+
+h2:last-of-type {
+	border: 2px solid blue;
+}
+
+h2:last-of-type {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+h2:last-of-type {
+	padding: 5px;
+}
